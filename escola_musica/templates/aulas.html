@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}Escola de Música{% endblock %}
+
+{% block content %}
+
+<h3>Calendário de Aulas</h3>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>Aula</th>
+<th>Professor</th>
+<th>Dias de Aula</th>
+<th>Horário</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Piano</td><td>João Silva - Piano</td><td>Segunda</td><td>18:30 às 20:30</td></tr>
+<tr><td>Guitarra</td><td>Maria Oliveira - Guitarra</td><td>Sábado</td><td>13:00 às 15:45</td></tr>
+<tr><td>Canto</td><td>Carlos Souza - Canto</td><td>Terça Feira</td><td>7:30 às 10:00</td></tr>
+<tr><td>Violão</td><td>Ana Pereira - Violão</td><td>Quarta Feira</td><td>7:30 às 10:00</td></tr>
+<tr><td>Bateria</td><td>Roberto Santos - Bateria</td><td>Segunda e Sexta Feira</td><td>13:00 às 15:00</td></tr>
+<tr><td>Saxofone</td><td>Fernanda Lima - Saxofone</td><td>Sexta Feira</td><td>16:30 às 18:30</td></tr>
+<tr><td>Flauta</td><td>Patrícia Almeida - Flauta</td><td>Quinta Feira</td><td>7:30 às 10:00</td></tr>
+<tr><td>Teclado</td><td>Lucas Mendes - Teclado</td><td>Quinta Feira</td><td>13:30 às 16:45</td></tr>
+<tr><td>Trompete</td><td>Juliana Costa - Trompete</td><td>Sexta e Quarta Feira</td><td>18:45 às 21:00</td></tr>
+<tr><td>Baixo</td><td>Ricardo Ferreira - Baixo</td><td>Terça Feira</td><td>13:45 às 16:00</td></tr>
+<!-- Adicione mais linhas conforme necessário -->
+</tbody>
+
+</table>
+
+<a href="{{ url_for('index') }}" class="btn btn-voltar mt-3">Voltar à Página Inicial</a>
+
+{% endblock %}

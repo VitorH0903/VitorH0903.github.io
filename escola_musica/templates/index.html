@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Escola de Musica{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Bem-vindo à Escola de Música</h1>
+    <a href="{{ url_for('alunos') }}" class="btn btn-primary btn-lg">Consultar Alunos</a>
+    <div style="margin-top: 50px;">
+        <img src="{{ url_for('static', filename='Preview.png') }}" style="height: 350px;">
+    </div>
+</div>
+{% endblock %}
+
+
+

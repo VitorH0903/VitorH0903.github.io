@@ -1,0 +1,197 @@
+/* style.css */
+
+/* Estilo geral do corpo */
+body {
+    background: linear-gradient(to right, #1a1d53, rgb(53, 55, 153));
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background: linear-gradient(to right, #1A1D53, rgb(53, 55, 153));
+    linha-horizontal {
+        width: 300px;
+        border: 1px solid #000;
+    }
+}
+
+.navbar-brand img {
+    transition: transform 0.3s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: white !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important; /* Cor ao passar o mouse */
+}
+
+.container {
+    border-radius: 15px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: linear-gradient(to right, #212568, rgb(60, 62, 168)); /* Fundo branco para contraste */
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(9, 124, 70, 0.87);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #1A1D53;
+}
+
+.custom-line {
+    border: none; /* Remove a borda padrão */
+    height: 2px;/* Altura da linha */
+    background-color: #03023b; /* Cor da linha */
+    margin: 0px auto; /* Margem em cima e embaixo */
+    width: 100%; /* Largura da linha */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ebf8f0;
+    text-shadow: 2px 2px 4px rgba(9, 124, 70, 0.87);
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #2fa56a; /* Cor do botão */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #3d3fb4; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento */
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(9, 124, 70, 0.87);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espaçamento entre os campos */
+}
+
+.btn-success {
+    background-color: #28a745; /* Cor do botão */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento */
+}
+
+.table {
+    color: #e9ecef;
+    margin-top: 30px; /* Espaço acima da tabela */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* Cor de fundo para linhas ímpares */
+}
+
+.table-striped tbody tr:hover {
+    background-color: #e9ecef; /* Cor ao passar o mouse */
+}
+
+.btn-info {
+    margin-bottom: 20px; /* Espaçamento abaixo do botão */
+}
+
+.texto-branco {
+    color: #ffffff; /* Cor do texto em branco */
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente para a tabela */
+    color: #ffffff; /* Cor do texto na tabela em branco */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo para linhas ímpares */
+}
+
+.table-striped tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Cor ao passar o mouse */
+}
+
+.texto-branco {
+    color: #ffffff; /* Cor do texto em branco */
+}
+
+.btn-adicionar {
+    background-color: #1eaf90; /* Azul */
+    border: none;
+    color: white; /* Texto em branco */
+}
+
+.btn-adicionar:hover {
+    background-color: #1c9e82; /* Azul mais escuro ao passar o mouse */
+}
+
+.btn-toggle {
+    background-color: #1eaf90; /* Ciano */
+    border: none;
+    color: white; /* Texto em branco */
+}
+
+.btn-toggle:hover {
+    background-color: #1c9e82; /* Ciano mais escuro ao passar o mouse */
+}
+
+.btn-voltar {
+    background-color: #1eaf90; /* Amarelo */
+    border: none;
+    color: rgb(255, 255, 255); /* Texto em preto */
+}
+
+.btn-voltar:hover {
+    background-color: #1c9e82; /* Amarelo mais escuro ao passar o mouse */
+}
+
+.btn-voltar {
+    background-color: #1eaf90; /* Cor laranja avermelhada */
+    border: none;
+    color: white; /* Texto em branco */
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #1c9e82; /* Cor mais escura ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento */
+}
